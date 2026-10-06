@@ -1,0 +1,20 @@
+<Layouts.app flash={@flash}>
+  <section class="space-y-8">
+    <h1 class="text-4xl font-bold tracking-tight sm:text-5xl">
+      Task Flow
+    </h1>
+
+    <p class="mt-4 max-w-xl text-lg leading-8 text-base-content/70">
+      A simple task manager for staying focused and getting things done.
+    </p>
+
+    <div class="mt-8">
+      <.link
+        href={~p"/tasks"}
+        class="inline-flex items-center rounded-lg bg-base-content px-5 py-3 text-sm font-semibold text-base-100 transition hover:opacity-80"
+      >
+        View Tasks
+      </.link>
+    </div>
+  </section>
+</Layouts.app>

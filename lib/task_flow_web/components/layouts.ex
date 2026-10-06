@@ -62,8 +62,8 @@ defmodule TaskFlowWeb.Layouts do
       </div>
     </header>
 
-    <main class="px-4 py-20 sm:px-6 lg:px-8">
-      <div class="mx-auto max-w-2xl space-y-4">
+    <main class="flex flex-1 items-center px-4 sm:px-6 lg:px-8">
+      <div class="mx-auto w-full max-w-2xl">
         {render_slot(@inner_block)}
       </div>
     </main>
